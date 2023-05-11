@@ -29,10 +29,10 @@ It contains CASIA, Columbia, NIST16, DSO datasets and versions uploaded and down
 ```clustering.py``` And the results are shown below.
 
 <center class="four">
-<img src='./output/CASIA_confusion_matrix.png' width = 130/>
-<img src='./output/Columbia_confusion_matrix.png' width = 130/>
-<img src='./output/DSO_confusion_matrix.png' width = 130/>
-<img src='./output/NIST16_confusion_matrix.png' width = 130/>
+<img src='./output/CASIA_confusion_matrix.png' width = 300/>
+<img src='./output/Columbia_confusion_matrix.png' width = 300/>
+<img src='./output/DSO_confusion_matrix.png' width = 300/>
+<img src='./output/NIST16_confusion_matrix.png' width = 300/>
 </center>
 
 ---
@@ -42,10 +42,10 @@ It contains CASIA, Columbia, NIST16, DSO datasets and versions uploaded and down
 3. To analyze data size change for images, `size_change_distribution.py` works perfectly. Check the following diagrams.
 
 <center class="four">
-<img src='./output/CASIA_size_data.png' width = 130/>
-<img src='./output/Columbia_size_data.png' width = 130/>
-<img src='./output/DSO_size_data.png' width = 130/>
-<img src='./output/NIST16_size_data.png' width = 130/>
+<img src='./output/CASIA_size_data.png' width = 300/>
+<img src='./output/Columbia_size_data.png' width = 300/>
+<img src='./output/DSO_size_data.png' width = 300/>
+<img src='./output/NIST16_size_data.png' width = 300/>
 </center>
 
 ---
@@ -54,20 +54,20 @@ It contains CASIA, Columbia, NIST16, DSO datasets and versions uploaded and down
 5. Utilizing pretrained large models like ResNet50 to get the visual artifacts and the results (see below) show from visual features noise from postprocessing from platforms wouldn't be detected. `feature_extraction.py`
 
 <center class="four">
-<img src='./output/CASIA_tsne.png' width = 130/>
-<img src='./output/Columbia_tsne.png' width = 130/>
-<img src='./output/DSO_tsne.png' width = 130/>
-<img src='./output/NIST16_tsne.png' width = 130/>
+<img src='./output/CASIA_tsne.png' width = 300/>
+<img src='./output/Columbia_tsne.png' width = 300/>
+<img src='./output/DSO_tsne.png' width = 300/>
+<img src='./output/NIST16_tsne.png' width = 300/>
 </center>
 
 ---
 6. [1] trains a U-Net to model the noise from social networks but they just average the noise instead of considering each platform as a single one. The results remain the same as last one. `osn_noise.py`
 
 <center class="four">
-<img src='./output/CASIA_tsne_0.png' width = 130/>
-<img src='./output/Columbia_tsne_0.png' width = 130/>
-<img src='./output/DSO_tsne_0.png' width = 130/>
-<img src='./output/NIST16_tsne_0.png' width = 130/>
+<img src='./output/CASIA_tsne_0.png' width = 300/>
+<img src='./output/Columbia_tsne_0.png' width = 300/>
+<img src='./output/DSO_tsne_0.png' width = 300/>
+<img src='./output/NIST16_tsne_0.png' width = 300/>
 </center>
 
 ### Reference
